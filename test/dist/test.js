@@ -26,9 +26,9 @@ var lowess = require( './../../dist' );
 
 // FIXTURES //
 
-var OPTS1 = require( './../..xtures/opts1.json' );
-var OPTS2 = require( './../..xtures/opts2.json' );
-var OPTS3 = require( './../..xtures/opts3.json' );
+var OPTS1 = require( './../fixtures/opts1.json' );
+var OPTS2 = require( './../fixtures/opts2.json' );
+var OPTS3 = require( './../fixtures/opts3.json' );
 
 
 // TESTS //
