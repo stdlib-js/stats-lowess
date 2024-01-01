@@ -52,7 +52,7 @@
     "@stdlib/math-base-special-pow": "^0.1.0",
     "@stdlib/math-base-special-sqrt": "^0.1.1",
     "@stdlib/stats-base-range": "^0.1.1",
-    "@stdlib/string-format": "^0.1.1",
+    "@stdlib/error-tools-fmtprodmsg": "^0.1.1",
     "@stdlib/types": "^0.2.0"
   },
   "devDependencies": {
