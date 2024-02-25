@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import lowess from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-lowess@deno/mod.js';
+import lowess from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-lowess@v0.2.1-deno/mod.js';
 ```
 
 #### lowess( x, y\[, opts] )
@@ -261,7 +261,7 @@ var out = lowess( x, y, {
 import randn from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randn@deno/mod.js';
 import Float64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@deno/mod.js';
 import plot from 'https://cdn.jsdelivr.net/gh/stdlib-js/plot-ctor@deno/mod.js';
-import lowess from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-lowess@deno/mod.js';
+import lowess from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-lowess@v0.2.1-deno/mod.js';
 
 var x;
 var y;
