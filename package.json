@@ -48,7 +48,7 @@
     "@stdlib/math-base-special-abs": "^0.2.1",
     "@stdlib/math-base-special-floor": "^0.2.2",
     "@stdlib/math-base-special-max": "^0.2.1",
-    "@stdlib/math-base-special-min": "^0.2.1",
+    "@stdlib/math-base-special-min": "^0.2.2",
     "@stdlib/math-base-special-pow": "^0.2.1",
     "@stdlib/math-base-special-sqrt": "^0.2.1",
     "@stdlib/stats-base-range": "^0.2.1",
