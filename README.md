@@ -44,6 +44,11 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
+lowess = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-lowess@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-lowess/tags). For example,
+
+```javascript
 lowess = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-lowess@v0.2.2-umd/browser.js' )
 ```
 
@@ -56,7 +61,7 @@ var lowess = require( 'path/to/vendor/umd/stats-lowess/index.js' )
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-lowess@v0.2.2-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-lowess@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -288,7 +293,7 @@ var out = lowess( x, y, {
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randn@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/plot-ctor@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-lowess@v0.2.2-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-lowess@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
